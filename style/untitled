@@ -1,0 +1,46 @@
+
+     id       Staus       Expired-time (UTC)           CP-pub 					  changes clawer
+
+| 600015270 | Active   | 2017-04-26 10:00:12 |    isOnTheMarket: true,
+
+| 600015422 | Active   | 2017-04-26 08:48:36 |    isOnTheMarket: true,
+
+| 600014002 | Active   | 2017-04-26 07:18:42 |    isOnTheMarket: true,
+
+| 600016242 | Active   | 2017-04-26 06:38:56 |	  isOnTheMarket: true             2017 06:39:54.148 GMT
+
+
+
+
+
+| 600009385 | Active   | 2017-04-24 07:09:26 |	  isOnTheMarket: false,          没有change 记录； 状态还是true
+
+| 600012890 | Active   | 2017-04-24 06:40:37 |	  isOnTheMarket: false,          没有change 记录； 状态还是true
+| 600015918 | Active   | 2017-04-24 05:31:04 |	  isOnTheMarket: false,          没有change 记录； 状态还是true
+| 600016246 | Active   | 2017-04-24 05:05:51 |    isOnTheMarket: false,          没有change 记录； 状态还是true
+| 600015814 | Active   | 2017-04-24 03:33:21 |    isOnTheMarket: false,			 没有change 记录； 状态还是true
+| 600015390 | Active   | 2017-04-24 02:45:01 |	  isOnTheMarket: false,			 没有change 记录； 状态还是true
+| 600012118 | Active   | 2017-04-24 00:40:00 |    isOnTheMarket: false,			 没有change 记录； 状态还是true
+| 600016286 | Active   | 2017-04-23 07:21:30 |    isOnTheMarket: false,			 没有change 记录； 状态还是true
+| 600016214 | Active   | 2017-04-23 03:59:48 |    isOnTheMarket: false,			 没有change 记录； 状态还是true
+| 600010254 | Active   | 2017-04-23 02:01:23 |    isOnTheMarket: false,			 没有change 记录； 状态还是true
+| 600015382 | Active   | 2017-04-23 01:46:58 |    isOnTheMarket: false,			 没有change 记录； 状态还是true
+
+
+Update: For the project profile changes:
+If the Expired-time is arrived the cp-publication will change '''the isOnTheMarket: false''' immediately, And the project-profile can still searchable in searchresult for serveral hours in buy channel; But changes-calwer can not get the change from cp-pub:  http://devlob-listings-hubproxy-staging.developer-hub.realestate.com.au/combined-listings/-/changes?after={uuid}
+For project-profile content like title change or price change will get the change in minutes;
+ 
+
+Time 2:23:50 PM; Change
+Changes-calwer 4:24:12.303 PM  message:  2017-04-25T06:23:56.515Z	00a03db2-ff8c-4a10-b59c-f2b5b70096ae	The listing-id 600010966 needs to be inserted or updated.
+
+
+2:30not changed;
+
+
+7:55过期；-13：55之间是可以search到的
+6个小时后；就搜不到了
+
+<body>
+ul.list>
